@@ -1,0 +1,102 @@
+.container-mfcp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+    padding-top: 25px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.container-mfcp .card{
+    width: 300px;
+    box-shadow: 0 0 10px 0 rgba(8, 0, 0, 0.342);
+}
+.container-mfcp .card .card-img{
+    width: 100%;
+    height: 300px;
+}
+.container-mfcp .card .card-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+}
+.container-mfcp .card .card-boyd{
+    padding: 12px 10px;
+}
+.container-mfcp .card .card-boyd h3{
+    font-size: 20px;
+}
+.container-mfcp .card .card-boyd p{
+    font-size: 16px;
+    margin-top: 1px;
+}
+.image-shape{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-shape .pattern-bg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    opacity: .2;
+}
+.image-shape .img-box{
+    position: relative;
+    z-index: 2;
+}
+.image-shape .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0 0 280px 230px;
+    transform: translate(10px,-10px);
+}
+.image-shape .img-box .shape{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-42%) rotate(-20deg);
+}
+.image-shape .img-box .shape-1{
+    background: #3E95D1;
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+}
+.image-shape .img-box .shape-2{
+    width: 92%;
+    height: 92%;
+    box-shadow: inset 0 -30px 0 #cacaca;
+    z-index: 2;
+}
+
+@media (max-width: 769px) {
+    .container-mfcp{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 5%;
+    }
+    .container-mfcp .card{
+        width: 90%;
+    }
+}
+@media (max-width: 477px) {
+    .container-mfcp{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 5%;
+    }
+    .container-mfcp .card{
+        width: 95%;
+    }
+    .container-mfcp .card .card-img{
+        height: 400px;
+    }
+}
