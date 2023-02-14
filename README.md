@@ -1,5 +1,5 @@
 # Macruuf widget for elementor
-This addon was developed during the Elementor Addon development Tutorial. You are free to use this addon for practice, personal or commercial projects.
+It's a Plugin that integrates elementor widgets that will make it easier for you to design your website
 
 ##  How to Install
 1. Download the source zip folder from this repository

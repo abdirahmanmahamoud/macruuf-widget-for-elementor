@@ -2,10 +2,10 @@
 /**
  * Macruuf widget for elementor
  *
- * @package           macruuf-widget
- * @author            Abdirahman mahamoud
- * @copyright         2022 Abdirahman mahamoud or macruuf tech
- * @license           GPL-2.0-or-later
+ * @package     Macruuf widget for elementor
+ * @author      Abdirahman Mohamoud
+ * @copyright   2022 abdirahman mohamoud
+ * @license     GPL-3.0-or-later
  */
 
 

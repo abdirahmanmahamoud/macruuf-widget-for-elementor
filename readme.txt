@@ -1,4 +1,5 @@
-<?php
+Macruuf widget for elementor
+It's a plugin that integrates elementor widgets to help you easily design your website.
 /**
  * Macruuf widget for elementor
  *
@@ -15,17 +16,7 @@
  * Author:      Abdirahman Mohamoud
  * Author URI:  http://abdirahmandev.com/
  * Text Domain: macruuf-widget
- * License:     GPL v2 or later
+ *  * License:     GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  */
-
-if( ! defined ('ABSPATH') ) {
-    exit;
-}
-/**
- * Widgets Loader
- */
-
-require plugin_dir_path(__FILE__).'widgets-loader.php';
-?>
